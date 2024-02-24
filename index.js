@@ -6,7 +6,7 @@ const app = express();
 
 //Mensaje de hola en home
 app.get('/', (req, res) => {
-    res.send('Hola Mundo');
+    res.send('Cambios desde nuevo deploy');
 });
 
 //Iniciar el servidor
